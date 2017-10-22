@@ -11,6 +11,13 @@ $(document).ready(function() {
       offset: '60px;'
     });
     
+    //Fade out main text
+    
+    $(window).scroll(function(){
+    $(".main-text-box").css("opacity", 1 - $(window).scrollTop() / 180);
+    });
+
+    
     //   Navigation Scroll 
     
     $('a[href*="#"]')
@@ -51,7 +58,7 @@ $(document).ready(function() {
     
     // Animations on scroll
     $('.js--wp-1').waypoint(function(direction) {
-        $('.js--wp-1').addClass('animated slideInRight');
+        $('.js--wp-1').addClass('animated pulse');
     }, {
         offset: '50%'
     });
@@ -61,5 +68,6 @@ $(document).ready(function() {
     }, {
         offset: '50%'
     });
+    
     
 });
