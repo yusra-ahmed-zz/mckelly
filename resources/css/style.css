@@ -38,7 +38,7 @@ body {
 }
 
 section {
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 h1:after {
@@ -73,24 +73,25 @@ header {
 
 .main-text-box h1 {
     font-family: 'Lato', 'Arial', sans-serif;
+    text-transform: uppercase;
     color:#dbd9d9;
 }
 
 .home {
     padding: 8px 0;
     float: left;
-    margin-top: 25px;
+    margin-top: 15px;
     text-decoration: none;
     color: #f4ada6;
     word-spacing: 8px;
-    font-size: 100%;
+    font-size: 120%;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 .home:hover,
 .home:active {
-    border-bottom: 4px solid #f4ada6;
+    font-weight: 400;
 }
 
 
@@ -120,16 +121,41 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 4px solid #f4ada6;
-    font-size: 105%;
+    font-size: 80%;
 }
 
+/* STICKY NAVIGATION */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+    opacity: 0.8;
+}
+
+.sticky .main-nav { 
+    margin-top: 18px;
+}
+
+.sticky .home {
+    margin-top: 10px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: #555;
+}
 
 h1 {
-    font-size: 220%;
-    text-transform: uppercase;
+    font-family: 'Italianno', cursive;
+    font-size: 260%;
     font-weight: 200;
     letter-spacing: 3px;
-    color: #cbcaca;
     text-align: center;
     color: #555;
 }
@@ -269,7 +295,7 @@ h2 {
     color: #4a4a4a;
 }
 
-.festivities {
+.details {
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/chandelier.jpeg);
     color: #fff;
     background-size: cover;

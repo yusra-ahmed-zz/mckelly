@@ -9,38 +9,39 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
 
 
 
         <title>Just McKellyed</title>
     </head>
     <body>
-        <header>
+        <header id="home">
             <nav>
                 <div class="row">
-                    <a class="home" href="#">Michelle + Tim</a>
-                    <ul class="main-nav">
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Our Story</a></li>
-                        <li><a href="#">Bridal Party</a></li>
-                        <li><a href="#">Wedding Details</a></li>
-                        <li><a href="#">MPLS</a></li>
+                    <a class="home" href="#home">Michelle + Tim</a>
+                    <ul class="main-nav js--main-nav" id="home">
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#our-story">Our Story</a></li>
+                        <li><a href="#bridal-party">Bridal Party</a></li>
+                        <li><a href="#details">Wedding Details</a></li>
+                        <li><a href="#mpls">MPLS</a></li>
                     </ul>
                 </div>
             </nav>
         
-        <div class="main-text-box">
+        <div class="main-text-box" id="main-text-box">
             <h1>We're getting married!</h1>
             <h2>May 19th, 2018<br>Minneapolis, MN</h2>
         </div>
         </header>
         
-        <section class="gallery" id="gallery">
+        <section class="gallery js--gallery" id="gallery">
             <h1>Gallery</h1>
             <p>Coming Soon!</p>
         </section>
         
-        <section class="our-story" id="story">
+        <section class="our-story" id="our-story">
             <div class="row">
                 <div class="col span-1-of-1">
                     <div class="outer-box">
@@ -83,7 +84,11 @@
                         </div>
                         <div class="blurb">
                             <h3>Jenna &nbsp;&nbsp;|&nbsp;&nbsp; Bridesmaid</h3>
-                            <p>Kinfolk semiotics raw denim, cronut knausgaard jean shorts sriracha. Freegan lumbersexual godard kale chips. Bushwick single-origin coffee godard hexagon knausgaard bitters heirloom tumblr beard 8-bit pug everyday carry squid.</p>
+                            <p>Kinfolk semiotics raw denim, cronut knausgaard jean shorts sriracha. Freegan lumbersexual godard kale chips. Bushwick single-origin coffee godard hexagon knausgaard bitters heirloom tumblr beard 8-bit pug everyday carry squid.<br>
+                            <br>
+                            <br>
+                            <br>
+                            <br></p>
                         </div>
                         <div>
                             <img src='resources/css/img/riki.JPG' alt='Matt'>
@@ -158,15 +163,21 @@
         </section>
         
         
-        <section class="festivities">
+        <section class="details" id="details">
 
         </section>
         
-        <section class="MPLS">
+        <section class="mpls" id="mpls">
             <h1>In Minneapolis</h1>
         </section>
 
-        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+    
     </body>
 
 
