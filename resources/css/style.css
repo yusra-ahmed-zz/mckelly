@@ -81,7 +81,7 @@ header {
 
 .main-text-box {
     position: absolute;
-    top: 62%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -114,25 +114,6 @@ header {
 /* ----------------------*/
 /* NAVIGATION */
 /* ----------------------*/
-
-/*
-.home {
-    padding: 8px 0;
-    float: left;
-    margin-top: 15px;
-    text-decoration: none;
-    color: #f4ada6;
-    word-spacing: 8px;
-    font-size: 120%;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.home:hover,
-.home:active {
-    font-weight: 400;
-}
-*/
 
 .main-nav {
     text-align: center;
@@ -247,22 +228,6 @@ header {
     text-align: justify;
     border-radius: 2px;
 }
-
-.story-box h1 {
-    padding: 15px;
-}
-
-/*
-.story-box h1:after {
-    display: block;
-    height: 4px;
-    background-color: #f4ada6;
-    content: " ";
-    width: 400px;
-    margin: 0 auto;
-    margin-top: 15px;
-}
-*/
 
 .story-box p {
     color: black;
