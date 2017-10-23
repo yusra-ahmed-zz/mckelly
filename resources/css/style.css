@@ -346,6 +346,18 @@ header {
     background-attachment: fixed
 }
 
+footer {
+    background-color: #cecece;
+    padding: 20px;
+    font-size: 80%;
+}
+
+footer h6 {
+    color: #555;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 /* ----------------------*/
 /* ANIMATIONS */
 /* ----------------------*/
