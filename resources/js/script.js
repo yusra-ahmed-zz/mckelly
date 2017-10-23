@@ -11,14 +11,14 @@ $(document).ready(function() {
       offset: '60px;'
     });
     
-    //Fade out main text
+    // Fade out main text box
     
     $(window).scroll(function(){
-    $(".main-text-box").css("opacity", 1 - $(window).scrollTop() / 180);
+        $(".main-text-box").css("opacity", 1 - $(window).scrollTop() / 200);
     });
 
     
-    //   Navigation Scroll 
+    // Navigation Scroll 
     
     $('a[href*="#"]')
       // Remove links that don't actually link to anything
