@@ -16,6 +16,17 @@
     .bp-logo {width: 30%;}
     .blurb {height: 340px; font-size: 60%; }
     .blurb p {padding-left: 10px;}
+    .info-box {
+        width: 250px;
+        height: 250px;
+        border: 18px solid rgba(209, 194, 194, 0.44);
+    }
+    .info-box h1 {font-size: 60%;}
+    .info-box h3 {font-size: 40%;}
+    .info-box p {
+        font-size: 25%;
+        text-align: center;
+    }
 }
 
 /* Small phones: from 0 to 480px */
