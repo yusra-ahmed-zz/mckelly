@@ -245,18 +245,6 @@ header {
     background-color: #f4f4f4;
 }
 
-/*
-.bridal-party h1:after {
-    display: block;
-    height: 4px;
-    background-color: #f4ada6;
-    content: " ";
-    width: 400px;
-    margin: 0 auto;
-    margin-top: 15px;
-}
-*/
-
 .bridal-blurb img {
     padding: 8px;
     border-radius: 50%;
@@ -265,7 +253,6 @@ header {
     position: center;
     float: left;
 }
-
 
 .bridal-blurb img:hover {
     opacity: 1;
@@ -331,10 +318,8 @@ header {
 
 .info-box h3 {
     font-size: 90%;
-    color: #555;
 }
 .info-box p {
-    color: #555;
     word-spacing: 2px;
     margin-top: 0;
     padding: 25px;
@@ -344,14 +329,13 @@ header {
 
 .info-box a:link,
 .info-box a:visited {
-    color: #355E3B;
+    color: #555;
     text-decoration: none;
 }
 
 .info-box a:hover,
 .info-box a:active {
-    color: #355E3B;
-    text-decoration: none;
+    color: #f4ada6;
 }
 
 /* ----------------------*/
@@ -366,14 +350,6 @@ header {
     margin-left: 20%;
     margin-right: 20%;
     color: #555
-}
-
-.registry a:link,
-.registry a:visited {
-    text-align: center;
-    text-decoration: none;
-    color: #355E3B,
-    font-weight: bold;
 }
 
 .bp-logo {
