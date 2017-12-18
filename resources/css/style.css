@@ -5,6 +5,7 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -72,6 +73,7 @@ h2 {
 /* ----------------------*/
 
 header {
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(img/main.jpg);
     background-image:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/main.jpg);
     background-size: cover;
     background-position: center;
@@ -83,6 +85,7 @@ header {
     position: absolute;
     top: 60%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -133,6 +136,7 @@ header {
     font-size: 70%;
     letter-spacing: 2px;
     border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
 
@@ -159,6 +163,7 @@ header {
     left: 0;
     width: 100%;
     background-color: #fff;
+    -webkit-box-shadow: 0 2px 2px #efefef;
     box-shadow: 0 2px 2px #efefef;
     z-index: 9999;
     opacity: .8;
@@ -225,6 +230,7 @@ header {
     margin-top: 5%;
     text-align: justify;
     border-radius: 15px;
+    -webkit-box-shadow: inset 2px 3px 49px -17px rgba(53,94,59,1);
     box-shadow: inset 2px 3px 49px -17px rgba(53,94,59,1);
 }
 
@@ -256,12 +262,14 @@ header {
 
 .bridal-blurb img:hover {
     opacity: 1;
+    -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
 .blurb {
     display: block;
     font-size: 75%;
+    -webkit-box-shadow: 5px 5px 27px 1px #b1b0b0;
     box-shadow: 5px 5px 27px 1px #b1b0b0;
     padding: 20px;
     background-color: white;
@@ -293,6 +301,7 @@ header {
 /* ----------------------*/
 
 .details {
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(img/chandelier.jpeg);
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/chandelier.jpeg);
     background-size: cover;
     background-position: center;
@@ -308,6 +317,7 @@ header {
     width: 612px;
     height: 612px;
     border-radius: 50%;
+    -webkit-box-shadow: inset 2px 3px 49px -17px rgba(53,94,59,1);
     box-shadow: inset 2px 3px 49px -17px rgba(53,94,59,1);
 }
 
@@ -391,6 +401,7 @@ footer h6 {
 .js--wp-1,
 .js--wp-2 {
     opacity: 0;
+    -webkit-animation-duration: 1s;
     animation-duration: 1s;
 }
 
