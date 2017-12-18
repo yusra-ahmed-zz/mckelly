@@ -20,7 +20,7 @@
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-    .blurb {height: 280px; font-size: 60%;}
+    .blurb {height: 280px; font-size: 80%;}
     .info-box {
         width: 420px;
         height: 420px;
