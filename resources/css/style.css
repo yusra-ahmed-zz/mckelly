@@ -47,7 +47,7 @@ h1:after {
     height: 4px;
     background-color: #355E3B;
     content: "";
-    width: 125px;
+    width: 160px;
     margin: 0 auto;
     margin-top: 15px;
 }
@@ -87,8 +87,14 @@ header {
 }
 
 .main-text-box h1 {
+    color: #f4ada6;
+    font-size: 300%;
+}
+
+.main-text-box p {
     font-family: 'Coda Caption', sans-serif;
     color:#cecece;
+    text-align: center;
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 240%;
@@ -101,10 +107,6 @@ header {
     font-weight: 100;
     font-size: 60%;
     text-transform: lowercase;
-}
-
-.main-text-box img {
-    width: 100%;
 }
 
 /* ----------------------*/
@@ -295,7 +297,7 @@ header {
 
 .blurb p {
     padding-left: 150px;
-    color: #4a4a4a;
+    color: #555;
     text-align: justify;
 }
 
@@ -305,10 +307,8 @@ header {
 
 .details {
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/chandelier.jpeg);
-    color: #fff;
     background-size: cover;
     background-position: center;
-    height: 100vh;
     padding-top: 2px;
     background-attachment: fixed
 }
@@ -318,41 +318,68 @@ header {
     text-align: center;
     border: 30px solid rgba(209, 194, 194, 0.44);
     background-clip: content-box;
-    width: 600px;
-    height: 600px;
+    width: 612px;
+    height: 612px;
     border-radius: 50%;
     box-shadow: inset 2px 3px 49px -17px rgba(53,94,59,1);
 }
 
 .info-box h1 {
     font-size: 115%;
+    padding-top: 10px;
 }
 
 .info-box h3 {
     font-size: 90%;
-    color: black;
+    color: #555;
 }
 .info-box p {
-    color: black;
+    color: #555;
     word-spacing: 2px;
     margin-top: 0;
     padding: 25px;
     padding-top: 0;
-    font-size: 75%;
+    font-size: 80%;
+}
+
+.info-box a:link,
+.info-box a:visited {
+    color: #355E3B;
+    text-decoration: none;
+}
+
+.info-box a:hover,
+.info-box a:active {
+    color: #355E3B;
+    text-decoration: none;
 }
 
 /* ----------------------*/
 /* Registry */
 /* ----------------------*/
 
+.registry {
+    background-color: #f4f4f4;
+}
 .registry p {
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
+    color: #555
 }
 
-.registry a:link {
+.registry a:link,
+.registry a:visited {
     text-align: center;
+    text-decoration: none;
+    color: #355E3B,
+    font-weight: bold;
+}
+
+.bp-logo {
+    display: block;
+    margin: auto;
+    width: 15%;
 }
 
 /* ----------------------*/
@@ -368,7 +395,7 @@ header {
 /* ----------------------*/
 
 footer {
-    background-color: #cecece;
+    background-color: #f4f4f4;
     padding: 20px;
     font-size: 90%;
 }
