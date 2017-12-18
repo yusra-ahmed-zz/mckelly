@@ -1,6 +1,7 @@
 $(document).ready(function() {
     
     // Sticky Navigation
+    
     $('.js--gallery').waypoint(function(direction) {
         if (direction == "down") {
             $('nav').addClass('sticky');
@@ -57,6 +58,7 @@ $(document).ready(function() {
       });
     
     // Animations on scroll
+    
     $('.js--wp-1').waypoint(function(direction) {
         $('.js--wp-1').addClass('animated pulse');
     }, {

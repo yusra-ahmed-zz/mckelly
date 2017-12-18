@@ -45,7 +45,7 @@ section {
 h1:after {
     display: block;
     height: 4px;
-    background-color: #f4ada6;
+    background-color: #355E3B;
     content: "";
     width: 125px;
     margin: 0 auto;
@@ -101,10 +101,6 @@ header {
     font-weight: 100;
     font-size: 60%;
     text-transform: lowercase;
-}
-
-.main-text-box h1:after {
-    background-color: #355E3B;
 }
 
 .main-text-box img {
@@ -226,7 +222,8 @@ header {
     margin-left: 5%;
     margin-top: 5%;
     text-align: justify;
-    border-radius: 20px;
+    border-radius: 15px;
+    box-shadow: inset 2px 3px 49px -17px rgba(53,94,59,1);
 }
 
 .story-box p {
@@ -280,6 +277,7 @@ header {
     padding: 20px;
     background-color: white;
     margin-bottom: 20px;
+    height: 260px;
 }
 
 .blurb h3 {
@@ -315,10 +313,55 @@ header {
     background-attachment: fixed
 }
 
+.info-box {
+    background-color: rgba(255, 255, 255, 0.89);
+    text-align: center;
+    border: 30px solid rgba(209, 194, 194, 0.44);
+    background-clip: content-box;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    box-shadow: inset 2px 3px 49px -17px rgba(53,94,59,1);
+}
+
+.info-box h1 {
+    font-size: 115%;
+}
+
+.info-box h3 {
+    font-size: 90%;
+    color: black;
+}
+.info-box p {
+    color: black;
+    word-spacing: 2px;
+    margin-top: 0;
+    padding: 25px;
+    padding-top: 0;
+    font-size: 75%;
+}
+
+/* ----------------------*/
+/* Registry */
+/* ----------------------*/
+
+.registry p {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.registry a:link {
+    text-align: center;
+}
+
 /* ----------------------*/
 /* MINNEAPOLIS */
 /* ----------------------*/
 
+.mpls p {
+    text-align: center;
+}
 
 /* ----------------------*/
 /* FOOTER */
@@ -327,14 +370,15 @@ header {
 footer {
     background-color: #cecece;
     padding: 20px;
-    font-size: 80%;
+    font-size: 90%;
 }
 
 footer h6 {
     color: #555;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 1px;
+    word-spacing: 2px;
 }
 
 /* ----------------------*/
