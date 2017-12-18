@@ -22,10 +22,11 @@
         border: 18px solid rgba(209, 194, 194, 0.44);
     }
     .info-box h1 {font-size: 60%;}
-    .info-box h3 {font-size: 40%;}
+    .info-box h3 {font-size: 30%;}
     .info-box p {
-        font-size: 25%;
+        font-size: 26%;
         text-align: center;
+        padding: 2px;
     }
 }
 
@@ -39,8 +40,7 @@
     .info-box h1 {font-size: 60%;}
     .info-box h3 {font-size: 50%;}
     .info-box p {
-        font-size: 50%; 
-        padding: 5px;
+        font-size: 54%;
     }
     .story-box p {font-size: 70%;}
     
