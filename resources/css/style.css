@@ -91,9 +91,17 @@ header {
 
 .main-text-box h1 {
     color: #f4ada6;
-    font-size: 300%;
+    font-size: 400%;
 }
 
+.main-text-box h2 {
+    color:#dbd9d9;
+    font-size: 110%;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+/*
 .main-text-box p {
     font-family: 'Coda Caption', sans-serif;
     color:#cecece;
@@ -111,6 +119,7 @@ header {
     font-size: 60%;
     text-transform: lowercase;
 }
+*/
 
 /* ----------------------*/
 /* NAVIGATION */
