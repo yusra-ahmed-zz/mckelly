@@ -73,10 +73,10 @@ h2 {
 /* ----------------------*/
 
 header {
-    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(img/main.jpg);
-    background-image:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/main.jpg);
+    background-image: url(img/compressed/MichelleTimEngagement-15.jpg);
     background-size: cover;
-    background-position: center;
+    background-position-x: center;
+    background-position-y: fixed;
     height: 120vh;
     background-attachment: fixed;
 }
@@ -139,10 +139,11 @@ header {
 .main-nav li a:link,
 .main-nav li a:visited {
     padding: 1px 0;
-    color:#dbd9d9;
+    color: white;
     text-decoration: none;
+    font-weight: bold;
     text-transform: uppercase;
-    font-size: 70%;
+    font-size: 90%;
     letter-spacing: 2px;
     border-bottom: 2px solid transparent;
     -webkit-transition: border-bottom 0.2s;
@@ -152,7 +153,7 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #f4ada6;
-    font-size: 80%;
+    /* font-size: 80%; */
 }
 
 /* STICKY NAVIGATION */
@@ -198,6 +199,7 @@ header {
 .sticky .main-nav li a:visited {
     padding: 1px 0;
     color: #555;
+    font-size: 70%;
 }
 
 
@@ -212,6 +214,7 @@ header {
 .gallery p {
     text-align: center;
 }
+
 
 /* ----------------------*/
 /* OUR STORY */
@@ -383,8 +386,28 @@ header {
 /* MINNEAPOLIS */
 /* ----------------------*/
 
+.mpls h4 {
+    text-align: center;
+    text-decoration: none;
+    color:rgba(53,94,59,1);
+    font-weight: 500;
+}
+
 .mpls p {
     text-align: center;
+    font-size: 90%;
+    padding: 4px;
+}
+
+.mpls a:link,
+.mpls a:visited {
+    color: #555;
+    text-decoration: none;
+}
+
+.mpls a:hover,
+.mpls a:active {
+    color: #f4ada6;
 }
 
 /* ----------------------*/
